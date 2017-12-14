@@ -1,0 +1,135 @@
+
+body {
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 0;
+    width: 200px;
+    background-color: #CACABA;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    border-right: 5px solid #4444AA;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4444AA;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 110px;
+    top: 250px;
+    border: 5px solid #4444AA;
+}
+
+h1 {
+  font-size: 40px;
+  position: absolute;
+  left: 297px;
+  top: 70px;
+}
+
+h2 {
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 410px;
+}
+
+h3 {
+  font-size: 40px;
+  position: absolute;
+  left: 297px;
+  top: 57px;
+}
+
+h4 {
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 410px;
+}
+
+h5 {
+  font-size: 40px;
+  position: absolute;
+  left: 297px;
+  top: 30px;
+}
+
+#tekstvoorpagina {
+  position: absolute;
+  left: 300px;
+}
+
+#tekstvoorpagina2 {
+  position: absolute;
+  left: 300px;
+  top: 460px;
+}
+
+#tekstovermij {
+  position: absolute;
+  left: 300px;
+}
+
+#tekstovermij2 {
+  position: absolute;
+  left: 300px;
+  top: 480px;
+}
+
+#logo {
+  position: absolute;
+  left: 1100px;
+  top: 350px;
+}
+
+#tekstopleiding {
+  position: absolute;
+  left: 300px;
+}
+
+#tekstberoep {
+  position: absolute;
+  left: 300px;
+}
+
+#gaming {
+  float: right;
+}
+
+#applicatieontwikkelaar {
+  float: right;
+}
+
+#persoon {
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
